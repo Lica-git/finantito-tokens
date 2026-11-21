@@ -1,0 +1,187 @@
+{
+  "$description": "Eskgo — tokens iguais nos dois temas",
+  "esk": {
+    "radius": {
+      "icon": {
+        "$type": "dimension",
+        "$value": "12px"
+      },
+      "tile": {
+        "$type": "dimension",
+        "$value": "26px"
+      },
+      "wallet": {
+        "$type": "dimension",
+        "$value": "32px"
+      },
+      "card": {
+        "$type": "dimension",
+        "$value": "34px"
+      },
+      "sheet": {
+        "$type": "dimension",
+        "$value": "34px"
+      },
+      "pill": {
+        "$type": "dimension",
+        "$value": "999px"
+      }
+    },
+    "space": {
+      "4": {
+        "$type": "dimension",
+        "$value": "4px"
+      },
+      "8": {
+        "$type": "dimension",
+        "$value": "8px"
+      },
+      "12": {
+        "$type": "dimension",
+        "$value": "12px"
+      },
+      "16": {
+        "$type": "dimension",
+        "$value": "16px"
+      },
+      "20": {
+        "$type": "dimension",
+        "$value": "20px"
+      },
+      "24": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "32": {
+        "$type": "dimension",
+        "$value": "32px"
+      },
+      "40": {
+        "$type": "dimension",
+        "$value": "40px"
+      },
+      "48": {
+        "$type": "dimension",
+        "$value": "48px"
+      },
+      "64": {
+        "$type": "dimension",
+        "$value": "64px"
+      }
+    },
+    "breakpoint": {
+      "md": {
+        "$type": "dimension",
+        "$value": "800px"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "1100px"
+      }
+    },
+    "font": {
+      "ui": {
+        "$type": "fontFamily",
+        "$value": [
+          "Satoshi",
+          "Plus Jakarta Sans",
+          "ui-sans-serif",
+          "system-ui",
+          "sans-serif"
+        ]
+      },
+      "kicker": {
+        "$type": "fontFamily",
+        "$value": [
+          "IBM Plex Mono",
+          "ui-monospace",
+          "monospace"
+        ]
+      }
+    },
+    "type": {
+      "balance": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{esk.font.ui}",
+          "fontSize": "46px",
+          "fontWeight": 500,
+          "lineHeight": 1,
+          "letterSpacing": "-0.045em"
+        },
+        "$description": "66px a partir de 800px"
+      },
+      "amount": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{esk.font.ui}",
+          "fontSize": "42px",
+          "fontWeight": 500,
+          "lineHeight": 1,
+          "letterSpacing": "-0.045em"
+        }
+      },
+      "screen-title": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{esk.font.ui}",
+          "fontSize": "29px",
+          "fontWeight": 500,
+          "lineHeight": "36px",
+          "letterSpacing": "-0.03em"
+        }
+      },
+      "sheet-title": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{esk.font.ui}",
+          "fontSize": "22px",
+          "fontWeight": 500,
+          "lineHeight": "28px",
+          "letterSpacing": "-0.02em"
+        }
+      },
+      "body": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{esk.font.ui}",
+          "fontSize": "16px",
+          "fontWeight": 500,
+          "lineHeight": "22px",
+          "letterSpacing": "0em"
+        }
+      },
+      "label": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{esk.font.ui}",
+          "fontSize": "13px",
+          "fontWeight": 500,
+          "lineHeight": "18px",
+          "letterSpacing": "0em"
+        }
+      },
+      "caption": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{esk.font.ui}",
+          "fontSize": "12px",
+          "fontWeight": 400,
+          "lineHeight": "16px",
+          "letterSpacing": "0em"
+        }
+      },
+      "kicker": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{esk.font.kicker}",
+          "fontSize": "11px",
+          "fontWeight": 400,
+          "lineHeight": "16px",
+          "letterSpacing": "0.08em"
+        },
+        "$description": "uppercase"
+      }
+    }
+  }
+}

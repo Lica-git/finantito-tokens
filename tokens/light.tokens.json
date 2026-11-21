@@ -1,0 +1,191 @@
+{
+  "$description": "Eskgo — tema claro (valores do design system Calmo)",
+  "esk": {
+    "surface": {
+      "bg": {
+        "$type": "color",
+        "$value": "#f6f6f1"
+      },
+      "bg-2": {
+        "$type": "color",
+        "$value": "#fafaf6"
+      },
+      "surface": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "surface-2": {
+        "$type": "color",
+        "$value": "#edede7"
+      },
+      "elevated": {
+        "$type": "color",
+        "$value": "#e1e1da"
+      },
+      "sheet": {
+        "$type": "color",
+        "$value": "#fafaf6"
+      },
+      "row-icon": {
+        "$type": "color",
+        "$value": "#edede7"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "#e4e4dd"
+      },
+      "track": {
+        "$type": "color",
+        "$value": "#e1e1da"
+      }
+    },
+    "text": {
+      "text": {
+        "$type": "color",
+        "$value": "#16161a"
+      },
+      "text-2": {
+        "$type": "color",
+        "$value": "#26262a"
+      },
+      "text-secondary": {
+        "$type": "color",
+        "$value": "#4a4a45"
+      },
+      "text-muted": {
+        "$type": "color",
+        "$value": "#5c5c56"
+      }
+    },
+    "brand": {
+      "lime": {
+        "$type": "color",
+        "$value": "#daf8b4"
+      },
+      "lilac": {
+        "$type": "color",
+        "$value": "#ccc8f6"
+      },
+      "lilac-strong": {
+        "$type": "color",
+        "$value": "#8780e3"
+      },
+      "offwhite": {
+        "$type": "color",
+        "$value": "#e1e1da"
+      },
+      "on-brand": {
+        "$type": "color",
+        "$value": "#16161a"
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "#b4232a"
+      }
+    },
+    "role": {
+      "lime-ink": {
+        "$type": "color",
+        "$value": "#46741a"
+      },
+      "progress": {
+        "$type": "color",
+        "$value": "#7fc22e"
+      },
+      "focus": {
+        "$type": "color",
+        "$value": "#5148c0"
+      },
+      "scrim": {
+        "$type": "color",
+        "$value": "rgba(22, 22, 26, 0.32)"
+      }
+    },
+    "shadow": {
+      "card": {
+        "$type": "shadow",
+        "$value": "0 -6px 20px rgba(28, 25, 70, 0.10)",
+        "$description": "CSS box-shadow"
+      },
+      "float": {
+        "$type": "shadow",
+        "$value": "0 1px 2px rgba(22, 22, 26, 0.04), 0 8px 24px rgba(22, 22, 26, 0.12)",
+        "$description": "CSS box-shadow"
+      }
+    },
+    "gradient": {
+      "hero": {
+        "$type": "gradient",
+        "$value": "radial-gradient(120% 90% at 0% 0%, #c9c3f7 0%, rgba(201, 195, 247, 0) 62%), radial-gradient(110% 110% at 100% 100%, #daf8b4 0%, rgba(218, 248, 180, 0) 58%), #ece9fb",
+        "$description": "CSS background"
+      },
+      "card": {
+        "$type": "gradient",
+        "$value": "linear-gradient(128deg, #ccc8f6 0%, #daf8b4 70%)",
+        "$description": "CSS background"
+      }
+    },
+    "category": {
+      "moradia": {
+        "fill": {
+          "$type": "color",
+          "$value": "#ccc8f6"
+        },
+        "bar": {
+          "$type": "color",
+          "$value": "#8780e3"
+        }
+      },
+      "alimentacao": {
+        "fill": {
+          "$type": "color",
+          "$value": "#daf8b4"
+        },
+        "bar": {
+          "$type": "color",
+          "$value": "#7fc22e"
+        }
+      },
+      "transporte": {
+        "fill": {
+          "$type": "color",
+          "$value": "#ffedcc"
+        },
+        "bar": {
+          "$type": "color",
+          "$value": "#e8932a"
+        }
+      },
+      "lazer": {
+        "fill": {
+          "$type": "color",
+          "$value": "#e3e1fb"
+        },
+        "bar": {
+          "$type": "color",
+          "$value": "#5148c0"
+        }
+      },
+      "saude": {
+        "fill": {
+          "$type": "color",
+          "$value": "#d6f2e6"
+        },
+        "bar": {
+          "$type": "color",
+          "$value": "#3f9b78"
+        }
+      },
+      "outros": {
+        "fill": {
+          "$type": "color",
+          "$value": "#e1e1da"
+        },
+        "bar": {
+          "$type": "color",
+          "$value": "#8a8a82"
+        }
+      }
+    }
+  }
+}

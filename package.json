@@ -1,0 +1,13 @@
+{
+  "name": "eskgo-tokens",
+  "version": "1.0.0",
+  "description": "Design tokens do Eskgo: tema escuro (identidade Eskgo) e claro (design system Calmo).",
+  "private": true,
+  "files": ["tokens", "css", "tailwind"],
+  "exports": {
+    "./css/eskgo.css": "./css/eskgo.css",
+    "./tailwind/eskgo.css": "./tailwind/eskgo.css",
+    "./tokens/*": "./tokens/*"
+  },
+  "license": "UNLICENSED"
+}

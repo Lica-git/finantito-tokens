@@ -1,0 +1,40 @@
+/* Tailwind CSS v4 — tema Eskgo.
+   No seu CSS:  @import "tailwindcss";  @import "eskgo-tokens/tailwind/eskgo.css";
+   Gera utilitários como bg-surface, text-fg-muted, bg-lime, text-lime-ink, rounded-card, md:/lg: (800/1100px). */
+@import "../css/eskgo.css";
+
+@theme inline {
+  --breakpoint-md: 50rem;    /* 800px — tablet / desktop compacto */
+  --breakpoint-lg: 68.75rem; /* 1100px — desktop */
+
+  --color-bg: var(--esk-bg);
+  --color-bg-2: var(--esk-bg-2);
+  --color-surface: var(--esk-surface);
+  --color-surface-2: var(--esk-surface-2);
+  --color-elevated: var(--esk-elevated);
+  --color-sheet: var(--esk-sheet);
+  --color-row-icon: var(--esk-row-icon);
+  --color-line: var(--esk-border);
+  --color-track: var(--esk-track);
+  --color-fg: var(--esk-text);
+  --color-fg-2: var(--esk-text-2);
+  --color-fg-secondary: var(--esk-text-secondary);
+  --color-fg-muted: var(--esk-text-muted);
+  --color-lime: var(--esk-lime);
+  --color-lilac: var(--esk-lilac);
+  --color-lilac-strong: var(--esk-lilac-strong);
+  --color-offwhite: var(--esk-offwhite);
+  --color-ink: var(--esk-on-brand);
+  --color-danger: var(--esk-danger);
+  --color-lime-ink: var(--esk-lime-ink);
+  --color-focus: var(--esk-focus);
+  --color-scrim: var(--esk-scrim);
+
+  --radius-tile: 26px;
+  --radius-wallet: 32px;
+  --radius-card: 34px;
+  --radius-sheet: 34px;
+  --radius-icon: 12px;
+  --font-sans: var(--esk-font-ui);
+  --font-mono: var(--esk-font-kicker);
+}

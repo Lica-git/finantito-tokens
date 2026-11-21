@@ -1,0 +1,191 @@
+{
+  "$description": "Eskgo — tema escuro (identidade Eskgo)",
+  "esk": {
+    "surface": {
+      "bg": {
+        "$type": "color",
+        "$value": "#030303"
+      },
+      "bg-2": {
+        "$type": "color",
+        "$value": "#0a0a0c"
+      },
+      "surface": {
+        "$type": "color",
+        "$value": "#111111"
+      },
+      "surface-2": {
+        "$type": "color",
+        "$value": "#131315"
+      },
+      "elevated": {
+        "$type": "color",
+        "$value": "#151518"
+      },
+      "sheet": {
+        "$type": "color",
+        "$value": "#18181b"
+      },
+      "row-icon": {
+        "$type": "color",
+        "$value": "#242428"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "#1c1c1f"
+      },
+      "track": {
+        "$type": "color",
+        "$value": "#26262a"
+      }
+    },
+    "text": {
+      "text": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "text-2": {
+        "$type": "color",
+        "$value": "#f2f2f2"
+      },
+      "text-secondary": {
+        "$type": "color",
+        "$value": "#9a9a9a"
+      },
+      "text-muted": {
+        "$type": "color",
+        "$value": "#85858b"
+      }
+    },
+    "brand": {
+      "lime": {
+        "$type": "color",
+        "$value": "#e5ffb5"
+      },
+      "lilac": {
+        "$type": "color",
+        "$value": "#d8ccfa"
+      },
+      "lilac-strong": {
+        "$type": "color",
+        "$value": "#bfa9fe"
+      },
+      "offwhite": {
+        "$type": "color",
+        "$value": "#f1f1ee"
+      },
+      "on-brand": {
+        "$type": "color",
+        "$value": "#0a0a0a"
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "#ff8a80"
+      }
+    },
+    "role": {
+      "lime-ink": {
+        "$type": "color",
+        "$value": "#e5ffb5"
+      },
+      "progress": {
+        "$type": "color",
+        "$value": "#e5ffb5"
+      },
+      "focus": {
+        "$type": "color",
+        "$value": "#e5ffb5"
+      },
+      "scrim": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.7)"
+      }
+    },
+    "shadow": {
+      "card": {
+        "$type": "shadow",
+        "$value": "0 -10px 30px rgba(0, 0, 0, 0.35)",
+        "$description": "CSS box-shadow"
+      },
+      "float": {
+        "$type": "shadow",
+        "$value": "0 12px 40px rgba(0, 0, 0, 0.5)",
+        "$description": "CSS box-shadow"
+      }
+    },
+    "gradient": {
+      "hero": {
+        "$type": "gradient",
+        "$value": "linear-gradient(128deg, #bfa9fe 0%, #d8ccfa 38%, #e5ffb5 100%)",
+        "$description": "CSS background"
+      },
+      "card": {
+        "$type": "gradient",
+        "$value": "linear-gradient(128deg, #d8ccfa 0%, #e5ffb5 62%)",
+        "$description": "CSS background"
+      }
+    },
+    "category": {
+      "moradia": {
+        "fill": {
+          "$type": "color",
+          "$value": "#d8ccfa"
+        },
+        "bar": {
+          "$type": "color",
+          "$value": "#d8ccfa"
+        }
+      },
+      "alimentacao": {
+        "fill": {
+          "$type": "color",
+          "$value": "#e5ffb5"
+        },
+        "bar": {
+          "$type": "color",
+          "$value": "#e5ffb5"
+        }
+      },
+      "transporte": {
+        "fill": {
+          "$type": "color",
+          "$value": "#f1f1ee"
+        },
+        "bar": {
+          "$type": "color",
+          "$value": "#f1f1ee"
+        }
+      },
+      "lazer": {
+        "fill": {
+          "$type": "color",
+          "$value": "#bfa9fe"
+        },
+        "bar": {
+          "$type": "color",
+          "$value": "#bfa9fe"
+        }
+      },
+      "saude": {
+        "fill": {
+          "$type": "color",
+          "$value": "#b9e6d3"
+        },
+        "bar": {
+          "$type": "color",
+          "$value": "#b9e6d3"
+        }
+      },
+      "outros": {
+        "fill": {
+          "$type": "color",
+          "$value": "#9a9a9a"
+        },
+        "bar": {
+          "$type": "color",
+          "$value": "#9a9a9a"
+        }
+      }
+    }
+  }
+}
