@@ -1,6 +1,6 @@
 {
-  "$description": "Eskgo — tema escuro (identidade Eskgo)",
-  "esk": {
+  "$description": "FinanTito — tema escuro (identidade FinanTito)",
+  "ft": {
     "surface": {
       "bg": {
         "$type": "color",

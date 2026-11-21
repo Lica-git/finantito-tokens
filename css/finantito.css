@@ -1,0 +1,97 @@
+/* FinanTito design tokens — gerado de tokens/*.tokens.json (mesmos valores do app).
+   Escuro é o padrão; claro com <html data-theme="light">. */
+:root {
+  --ft-bg: #030303;
+  --ft-bg-2: #0a0a0c;
+  --ft-surface: #111111;
+  --ft-surface-2: #131315;
+  --ft-elevated: #151518;
+  --ft-sheet: #18181b;
+  --ft-row-icon: #242428;
+  --ft-border: #1c1c1f;
+  --ft-track: #26262a;
+  --ft-text: #ffffff;
+  --ft-text-2: #f2f2f2;
+  --ft-text-secondary: #9a9a9a;
+  --ft-text-muted: #85858b;
+  --ft-lime: #e5ffb5;
+  --ft-lilac: #d8ccfa;
+  --ft-lilac-strong: #bfa9fe;
+  --ft-offwhite: #f1f1ee;
+  --ft-on-brand: #0a0a0a;
+  --ft-danger: #ff8a80;
+  --ft-lime-ink: #e5ffb5;
+  --ft-progress: #e5ffb5;
+  --ft-focus: #e5ffb5;
+  --ft-scrim: rgba(0, 0, 0, 0.7);
+  --ft-shadow-card: 0 -10px 30px rgba(0, 0, 0, 0.35);
+  --ft-shadow-float: 0 12px 40px rgba(0, 0, 0, 0.5);
+  --ft-cat-moradia: #d8ccfa;
+  --ft-cat-moradia-bar: #d8ccfa;
+  --ft-cat-alimentacao: #e5ffb5;
+  --ft-cat-alimentacao-bar: #e5ffb5;
+  --ft-cat-transporte: #f1f1ee;
+  --ft-cat-transporte-bar: #f1f1ee;
+  --ft-cat-lazer: #bfa9fe;
+  --ft-cat-lazer-bar: #bfa9fe;
+  --ft-cat-saude: #b9e6d3;
+  --ft-cat-saude-bar: #b9e6d3;
+  --ft-cat-outros: #9a9a9a;
+  --ft-cat-outros-bar: #9a9a9a;
+  --ft-grad-hero: linear-gradient(128deg, #bfa9fe 0%, #d8ccfa 38%, #e5ffb5 100%);
+  --ft-grad-card: linear-gradient(128deg, #d8ccfa 0%, #e5ffb5 62%);
+
+  --ft-radius-icon: 12px;
+  --ft-radius-tile: 26px;
+  --ft-radius-wallet: 32px;
+  --ft-radius-card: 34px;
+  --ft-radius-sheet: 34px;
+  --ft-font-ui: "Satoshi", "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --ft-font-kicker: "IBM Plex Mono", ui-monospace, monospace;
+
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --ft-bg: #f6f6f1;
+  --ft-bg-2: #fafaf6;
+  --ft-surface: #ffffff;
+  --ft-surface-2: #edede7;
+  --ft-elevated: #e1e1da;
+  --ft-sheet: #fafaf6;
+  --ft-row-icon: #edede7;
+  --ft-border: #e4e4dd;
+  --ft-track: #e1e1da;
+  --ft-text: #16161a;
+  --ft-text-2: #26262a;
+  --ft-text-secondary: #4a4a45;
+  --ft-text-muted: #5c5c56;
+  --ft-lime: #daf8b4;
+  --ft-lilac: #ccc8f6;
+  --ft-lilac-strong: #8780e3;
+  --ft-offwhite: #e1e1da;
+  --ft-on-brand: #16161a;
+  --ft-danger: #b4232a;
+  --ft-lime-ink: #46741a;
+  --ft-progress: #7fc22e;
+  --ft-focus: #5148c0;
+  --ft-scrim: rgba(22, 22, 26, 0.32);
+  --ft-shadow-card: 0 -6px 20px rgba(28, 25, 70, 0.10);
+  --ft-shadow-float: 0 1px 2px rgba(22, 22, 26, 0.04), 0 8px 24px rgba(22, 22, 26, 0.12);
+  --ft-cat-moradia: #ccc8f6;
+  --ft-cat-moradia-bar: #8780e3;
+  --ft-cat-alimentacao: #daf8b4;
+  --ft-cat-alimentacao-bar: #7fc22e;
+  --ft-cat-transporte: #ffedcc;
+  --ft-cat-transporte-bar: #e8932a;
+  --ft-cat-lazer: #e3e1fb;
+  --ft-cat-lazer-bar: #5148c0;
+  --ft-cat-saude: #d6f2e6;
+  --ft-cat-saude-bar: #3f9b78;
+  --ft-cat-outros: #e1e1da;
+  --ft-cat-outros-bar: #8a8a82;
+  --ft-grad-hero: radial-gradient(120% 90% at 0% 0%, #c9c3f7 0%, rgba(201, 195, 247, 0) 62%), radial-gradient(110% 110% at 100% 100%, #daf8b4 0%, rgba(218, 248, 180, 0) 58%), #ece9fb;
+  --ft-grad-card: linear-gradient(128deg, #ccc8f6 0%, #daf8b4 70%);
+
+  color-scheme: light;
+}

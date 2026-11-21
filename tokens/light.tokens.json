@@ -1,6 +1,6 @@
 {
-  "$description": "Eskgo — tema claro (valores do design system Calmo)",
-  "esk": {
+  "$description": "FinanTito — tema claro (valores do design system Calmo)",
+  "ft": {
     "surface": {
       "bg": {
         "$type": "color",

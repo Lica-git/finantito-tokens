@@ -1,12 +1,12 @@
 {
-  "name": "eskgo-tokens",
+  "name": "finantito-tokens",
   "version": "1.0.0",
-  "description": "Design tokens do Eskgo: tema escuro (identidade Eskgo) e claro (design system Calmo).",
+  "description": "Design tokens do FinanTito: tema escuro (identidade FinanTito) e claro (design system Calmo).",
   "private": true,
   "files": ["tokens", "css", "tailwind"],
   "exports": {
-    "./css/eskgo.css": "./css/eskgo.css",
-    "./tailwind/eskgo.css": "./tailwind/eskgo.css",
+    "./css/finantito.css": "./css/finantito.css",
+    "./tailwind/finantito.css": "./tailwind/finantito.css",
     "./tokens/*": "./tokens/*"
   },
   "license": "UNLICENSED"

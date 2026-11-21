@@ -1,0 +1,40 @@
+/* Tailwind CSS v4 — tema FinanTito.
+   No seu CSS:  @import "tailwindcss";  @import "finantito-tokens/tailwind/finantito.css";
+   Gera utilitários como bg-surface, text-fg-muted, bg-lime, text-lime-ink, rounded-card, md:/lg: (800/1100px). */
+@import "../css/finantito.css";
+
+@theme inline {
+  --breakpoint-md: 50rem;    /* 800px — tablet / desktop compacto */
+  --breakpoint-lg: 68.75rem; /* 1100px — desktop */
+
+  --color-bg: var(--ft-bg);
+  --color-bg-2: var(--ft-bg-2);
+  --color-surface: var(--ft-surface);
+  --color-surface-2: var(--ft-surface-2);
+  --color-elevated: var(--ft-elevated);
+  --color-sheet: var(--ft-sheet);
+  --color-row-icon: var(--ft-row-icon);
+  --color-line: var(--ft-border);
+  --color-track: var(--ft-track);
+  --color-fg: var(--ft-text);
+  --color-fg-2: var(--ft-text-2);
+  --color-fg-secondary: var(--ft-text-secondary);
+  --color-fg-muted: var(--ft-text-muted);
+  --color-lime: var(--ft-lime);
+  --color-lilac: var(--ft-lilac);
+  --color-lilac-strong: var(--ft-lilac-strong);
+  --color-offwhite: var(--ft-offwhite);
+  --color-ink: var(--ft-on-brand);
+  --color-danger: var(--ft-danger);
+  --color-lime-ink: var(--ft-lime-ink);
+  --color-focus: var(--ft-focus);
+  --color-scrim: var(--ft-scrim);
+
+  --radius-tile: 26px;
+  --radius-wallet: 32px;
+  --radius-card: 34px;
+  --radius-sheet: 34px;
+  --radius-icon: 12px;
+  --font-sans: var(--ft-font-ui);
+  --font-mono: var(--ft-font-kicker);
+}

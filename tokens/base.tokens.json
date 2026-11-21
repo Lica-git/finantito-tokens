@@ -1,6 +1,6 @@
 {
-  "$description": "Eskgo — tokens iguais nos dois temas",
-  "esk": {
+  "$description": "FinanTito — tokens iguais nos dois temas",
+  "ft": {
     "radius": {
       "icon": {
         "$type": "dimension",
@@ -103,7 +103,7 @@
       "balance": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{esk.font.ui}",
+          "fontFamily": "{ft.font.ui}",
           "fontSize": "46px",
           "fontWeight": 500,
           "lineHeight": 1,
@@ -114,7 +114,7 @@
       "amount": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{esk.font.ui}",
+          "fontFamily": "{ft.font.ui}",
           "fontSize": "42px",
           "fontWeight": 500,
           "lineHeight": 1,
@@ -124,7 +124,7 @@
       "screen-title": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{esk.font.ui}",
+          "fontFamily": "{ft.font.ui}",
           "fontSize": "29px",
           "fontWeight": 500,
           "lineHeight": "36px",
@@ -134,7 +134,7 @@
       "sheet-title": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{esk.font.ui}",
+          "fontFamily": "{ft.font.ui}",
           "fontSize": "22px",
           "fontWeight": 500,
           "lineHeight": "28px",
@@ -144,7 +144,7 @@
       "body": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{esk.font.ui}",
+          "fontFamily": "{ft.font.ui}",
           "fontSize": "16px",
           "fontWeight": 500,
           "lineHeight": "22px",
@@ -154,7 +154,7 @@
       "label": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{esk.font.ui}",
+          "fontFamily": "{ft.font.ui}",
           "fontSize": "13px",
           "fontWeight": 500,
           "lineHeight": "18px",
@@ -164,7 +164,7 @@
       "caption": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{esk.font.ui}",
+          "fontFamily": "{ft.font.ui}",
           "fontSize": "12px",
           "fontWeight": 400,
           "lineHeight": "16px",
@@ -174,7 +174,7 @@
       "kicker": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{esk.font.kicker}",
+          "fontFamily": "{ft.font.kicker}",
           "fontSize": "11px",
           "fontWeight": 400,
           "lineHeight": "16px",
